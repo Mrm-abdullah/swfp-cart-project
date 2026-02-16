@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swft Cart</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./Assets/banner-image.png" type="image/x-icon">
+
+    <!-- daisy ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+    <header class="container mx-auto">
+        <div class="navbar bg-base-100 shadow-sm">
+            <div class="navbar-start">
+                <a class="btn btn-ghost text-xl">daisyUI</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                <li><a>Item 1</a></li>
+                <li>
+                    <details>
+                    <summary>Parent</summary>
+                    <ul class="p-2 bg-base-100 w-40 z-1">
+                        <li><a>Submenu 1</a></li>
+                        <li><a>Submenu 2</a></li>
+                    </ul>
+                    </details>
+                </li>
+                <li><a>Item 3</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <i class="fa-solid fa-cart-shopping text-2xl"></i>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <i class="fa-solid fa-bars text-2xl"></i>
+                    </div>
+                    <ul
+                        tabindex="-1"
+                        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Item 1</a></li>
+                        <li>
+                        <a>Parent</a>
+                        <ul class="p-2">
+                            <li><a>Submenu 1</a></li>
+                            <li><a>Submenu 2</a></li>
+                        </ul>
+                        </li>
+                        <li><a>Item 3</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- banner section -->
+        <section>
+            <div class="hero mb-12" style="background-image: url(./Assets/banner-image.png);">
+            <div class="hero-overlay"></div>
+            <div class="container text-neutral-content text-start py-24" style="width:100%";>
+                <div class="container">
+                <h1 class="mb-5 text-5xl font-bold">Best Colection For You</h1>
+                <p class="mb-5 max-w-2xl">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                    quasi.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- info section -->
+        <section class="container mx-auto my-12">
+        <div class="hero my-12">
+            <div class="hero-content text-center">
+                <div class="max-w-xl">
+                <h1 class="text-5xl font-bold">Why Choose Us</h1>
+                <p class="py-6">
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem
+                    quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+                </div>
+            </div>
+        </div>
+        <!-- info caed icon -->
+            <div class=" flex gap-4">
+            <div class="card card-dash bg-base-100">
+                <div class="card-body">
+                    <span class="text-2xl mb-4 bg-gray-200 w-12 rounded-lg border-4 border-white shadow-lg ">
+                        <i class="fa-regular fa-truck p-2 bg-gray-200 text-primary"></i>
+                    </span>
+                    <h2 class="card-title">Card Title</h2>
+                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                    
+                </div>
+            </div>
+            </div>
+        </section>
+
+         <!-- trending section  -->
+        <section class="container mx-auto my-12 ">
+            <div class="flex gap-4">
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="bg-gray-200">
+                        <img class="w-1/3"
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="card-actions justify-between">
+                            <div class="badge text-primary bg-gray-200">Men's clothing</div>
+                            <div class="text-gray-500"> <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span> 3.9 <span>(120)</span></div>
+                        </div>
+                        <h2 class="card-title my-2"> Card Title </h2>
+                        <div class="card-actions justify-between">
+                            <button class="btn btn-outline btn-primary flex-1"> <i class="fa-solid fa-eye"></i> Details</button>
+                            <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="bg-gray-200">
+                        <img class="w-1/3"
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="card-actions justify-between">
+                            <div class="badge text-primary bg-gray-200">Men's clothing</div>
+                            <div class="text-gray-500"> <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span> 3.9 <span>(120)</span></div>
+                        </div>
+                        <h2 class="card-title my-2"> Card Title
+                        </h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                        <div class="card-actions justify-between">
+                            <button class="btn btn-outline btn-primary flex-1"> <i class="fa-solid fa-eye"></i> Details</button>
+                            <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card bg-base-100 shadow-sm">
+                    <figure class="bg-gray-200">
+                        <img class="w-1/3"
+                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        alt="Shoes" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="card-actions justify-between">
+                            <div class="badge text-primary bg-gray-200">Men's clothing</div>
+                            <div class="text-gray-500"> <span class="text-yellow-500"><i class="fa-solid fa-star"></i></span> 3.9 <span>(120)</span></div>
+                        </div>
+                        <h2 class="card-title my-2"> Card Title
+                        </h2>
+                        <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+                        <div class="card-actions justify-between">
+                            <button class="btn btn-outline btn-primary flex-1"> <i class="fa-solid fa-eye"></i> Details</button>
+                            <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-plus"></i> Add</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-gray-800 ">
+        <div class="footer container mx-auto sm:footer-horizontal bg-base-200 text-base-content bg-gray-800 p-10 text-white/90 my-12">
+            <nav>
+                <h6 class="footer-title text-2xl text-primary">SwfpCart</h6>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+            <form>
+                <h6 class="footer-title">Newsletter</h6>
+                <fieldset class="w-80">
+                <label>Enter your email address</label>
+                <div class="join text-gray-800">
+                    <input
+                    type="text"
+                    placeholder="username@site.com"
+                    class="input input-bordered join-item" />
+                    <button class="btn btn-primary join-item">Subscribe</button>
+                </div>
+                </fieldset>
+            </form>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="./script/index.js"></script>
+</body>
+</html>
