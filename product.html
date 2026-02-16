@@ -63,20 +63,20 @@
     <main>
         
 
-         <!-- trending section  -->
+         <!-- trending section  --> 
         <section class="container mx-auto my-12 ">
             <div class="my-8 text-center">
                 <h2 class="text-3xl font-bold">Our Product</h2>
                 <div>
-                    <ul class="flex flex-wrap gap-4 justify-center mt-3">
+                    <ul id="categorie-id" class="flex flex-wrap gap-4 justify-center mt-3">
                         <li><button class="btn btn-outline rounded-xl"> All</button></li>
-                        <li><button class="btn btn-outline rounded-xl"> Electronics</button></li>
-                        <li><button class="btn btn-outline rounded-xl"> Electronics</button></li>
+                        
                     </ul>
                 </div>
             </div>
-            <div class="grid grid-col-1 md:grid-col-2 lg:grid-col-4 gap-4 md:max-w-1/2 lg:max-w-1/4">
-                <div class="card bg-base-100 shadow-sm">
+            <div id="loadbycategory" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <div>
+                    <div class="card bg-base-100 shadow-sm ">
                     <figure class="bg-gray-200">
                         <img class="p-8"
                         src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -93,6 +93,7 @@
                             <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-plus"></i> Add</button>
                         </div>
                     </div>
+                </div>
                 </div>
             </div>
         </section>
