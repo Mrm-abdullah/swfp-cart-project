@@ -60,14 +60,24 @@ https://fakestoreapi.com/products/1
 > **⚠️ Warning:** Do not use any AI tools to answer these questions. You must write the answers in **Bangla**.
 
 #### 1) What is the difference between `null` and `undefined`?
+    null => user bolei dibe ata null. type object.
+    undefined => kono value deoya nei. type undefined.
 
 #### 2) What is the use of the `map()` function in JavaScript? How is it different from `forEach()`?
+    map() => map korle new array toiri hoy.
+    forEach() => notun array toiri hoyna. loop caliye kono kaj korar jonno.
 
 #### 3) What is the difference between `==` and `===`?
+    `==` => sudu value mil ace kina dekhe.
+    `===` => value and type duita mill ace kina check kore.
 
 #### 4) What is the significance of `async`/`await` in fetching API data?
+    `async`/`await` => api ar sob data load na hoya porjonto onno kaj kore na.
 
 #### 5) Explain the concept of Scope in JavaScript (Global, Function, Block).
+    Global, => sob kicur baire rakha hooy. and sob jayga theke access kora jay.
+    Function, => function ar vitore rakha hoy. sudu funtion ar vitorei access kora jay.
+    Block => {} ai beketer vitore rakha hoy. sudu block ar vitorei access kora jay.
 
 
 
@@ -90,8 +100,8 @@ https://fakestoreapi.com/products/1
 
 
 ## 🔗 Submission
-- **Live Link :** YOUR_DEPLOYED_URL_HERE
-- **GitHub Repository:** YOUR_REPO_URL_HERE
+- **Live Link :** https://prismatic-profiterole-c89d10.netlify.app/
+- **GitHub Repository:** https://github.com/Mrm-abdullah/swfp-cart-project.git
 
 
 ### 📅 Deadline For 60 marks: 17th February, 2026 (11:59 pm ⏱️)

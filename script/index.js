@@ -58,7 +58,7 @@ const displayloadoByCategories = (products) => {
                         </div>
                         <h2 class="card-title my-2">${product.title} </h2>
                         <div class="card-actions justify-between">
-                            <button class="btn btn-outline btn-primary flex-1"> <i class="fa-solid fa-eye"></i> Details</button>
+                            <button  onclick="loadDetail(${ product.id})"  class="btn btn-outline btn-primary flex-1"> <i class="fa-solid fa-eye"></i> Details</button>
                             <button class="btn btn-primary flex-1"><i class="fa-solid fa-cart-plus"></i> Add</button>
                         </div>
                     </div>
@@ -110,7 +110,7 @@ const displayAllProduct = (products) => {
 }
 
 const displayDetails = (detail) => {
-  console.log(detail);
+//   console.log(detail);
   const details = document.getElementById("my_modal_1");
   details.innerHTML = `
     <div class="modal-box">
