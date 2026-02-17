@@ -12,7 +12,7 @@ const loadoByCategories = async(category) => {
     // console.log(data)
     displayloadoByCategories(data)
 }
-loadoByCategories("jewelery")
+// loadoByCategories("jewelery")
 
 
 const displayCategories = (categories) => {
@@ -60,3 +60,4 @@ const displayloadoByCategories = (products) => {
         levelByCategories.append(btnDiv);
     }
 }
+
