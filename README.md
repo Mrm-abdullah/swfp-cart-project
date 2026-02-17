@@ -46,13 +46,13 @@ https://fakestoreapi.com/products/1
 - done 
 
 #### 4) Trending / Top Rated Section
-- Show **3 top-rated products** (you can filter by rating or just pick the first 3) based on API data or hardcoded for layout practice. 
+- done 
 
 #### 5) Newsletter & Footer
 - done 
 
 #### 6) Responsiveness
-- Website must be **mobile responsive** 
+- done
 
 ---
 #### 7) Create a README file to answer the following questions-
@@ -69,6 +69,8 @@ https://fakestoreapi.com/products/1
 
 #### 5) Explain the concept of Scope in JavaScript (Global, Function, Block).
 
+
+
 ## ⚡ Dynamic Features & Functionalities
 
 1) Category Loading
@@ -83,37 +85,8 @@ https://fakestoreapi.com/products/1
 - done
 
 📌 Rules
-✅ At least 5 meaningful commits
-❌ No dummy text where real data can be shown.
-
-
-
-- extra remove dao na korle
-## 🧪 Challenges (Optional)
-
-    1) Add to Cart Interaction
-    Clicking "Add to Cart":
-    - Adds the product to a Cart list/array.
-    - Updates a Cart Count in the Navbar.
-    - (Optional) Persist in LocalStorage.
-
-    2) Cart Calculation
-    Show a summary (maybe in a sidebar or a separate section/modal) that lists added items and calculates the **Total Price**.
-
-    3) Remove from Cart
-    Ability to remove an item from the cart and update the Total Price instantly.
-
-    4) Loading Spinner
-    Show a loading spinner or skeleton loader while fetching data from the API.
-
-    5) Active State
-    Highlight the currently selected category button.
-
-🧰 Technology Stack:
-    HTML
-    CSS (Vanilla / Tailwind / DaisyUI)
-    JavaScript (Vanilla only, no frameworks like React/Vue for this assignment)
-
+✅ At least 5 meaningful commits - done
+❌ No dummy text where real data can be shown. - done
 
 
 ## 🔗 Submission
